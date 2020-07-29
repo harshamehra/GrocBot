@@ -2,7 +2,7 @@ import { Component, DebugElement, NO_ERRORS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { AboutComponent } from './about.component';
+import { RetailersComponent } from './retailers.component';
 
 @Component({
     template: `
@@ -14,19 +14,19 @@ class TestHostComponent {
     // someFunction(event: Event) {}
 }
 
-describe('AboutComponent', () => {
+describe('RetailersComponent', () => {
     let fixture: ComponentFixture<TestHostComponent>;
     let hostComponent: TestHostComponent;
     let hostComponentDE: DebugElement;
     let hostComponentNE: Element;
 
-    let component: AboutComponent;
+    let component: RetailersComponent;
     let componentDE: DebugElement;
     let componentNE: Element;
 
     beforeEach(() => {
         TestBed.configureTestingModule({
-            declarations: [TestHostComponent, AboutComponent],
+            declarations: [TestHostComponent, RetailersComponent],
             imports: [NoopAnimationsModule],
             providers: [],
             schemas: [NO_ERRORS_SCHEMA],

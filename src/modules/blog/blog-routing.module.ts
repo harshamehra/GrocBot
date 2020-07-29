@@ -22,6 +22,10 @@ export const ROUTES: Routes = [
         component: blogContainers.AboutComponent,
     },
     {
+        path: 'retailers',
+        component: blogContainers.RetailersComponent,
+    },
+    {
         path: 'new',
         component: blogContainers.NewPostComponent,
     },

@@ -8,5 +8,14 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 })
 export class DemoInfoComponent implements OnInit {
     constructor() {}
+
     ngOnInit() {}
+
+    redirectRetailer() {
+        window.location.href = 'https://amazon.com';
+    }
+
+    redirectCustomer() {
+        window.location.href = 'https://amazon.com';
+    }
 }
